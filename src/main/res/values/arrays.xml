@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="subforum0_application_indexes">
+        <item>27</item>
+        <item>79</item>
+        <item>71</item>
+        <item>197</item>
+        <item>173</item>
+        <item>92</item>
+        <item>82</item>
+        <item>144</item>
+    </array>
+    <array name="subforum0_application_titles">
+        <item>留学申请</item>
+        <item>定位选校</item>
+        <item>院系介绍</item>
+        <item>转CS</item>
+        <item>招生</item>
+        <item>各校进展</item>
+        <item>录取汇报</item>
+        <item>求比较</item>
+    </array>
+    <array name="subforum1_study_indexes">
+        <item>87</item>
+        <item>125</item>
+        <item>126</item>
+        <item>76</item>
+        <item>128</item>
+    </array>
+    <array name="subforum1_study_titles">
+        <item>英语考试</item>
+        <item>TOEFL</item>
+        <item>GRE</item>
+        <item>英语能力</item>
+        <item>公开课</item>
+    </array>
+    <array name="subforum2_work_indexes">
+        <item>28</item>
+        <item>84</item>
+        <item>145</item>
+        <item>198</item>
+        <item>98</item>
+        <item>237</item>
+        <item>99</item>
+        <item>47</item>
+    </array>
+    <array name="subforum2_work_titles">
+        <item>找工求职</item>
+        <item>刷题</item>
+        <item>面经</item>
+        <item>内推</item>
+        <item>职场达人</item>
+        <item>抖包袱</item>
+        <item>身份移民</item>
+        <item>签证手续</item>
+    </array>
+    <array name="subforum3_academic_indexes">
+        <item>77</item>
+        <item>41</item>
+        <item>46</item>
+        <item>172</item>
+        <item>101</item>
+        <item>75</item>
+        <item>194</item>
+    </array>
+    <array name="subforum3_academic_titles">
+        <item>学习研究</item>
+        <item>CS/EE/IS</item>
+        <item>Math/Stat</item>
+        <item>Data</item>
+        <item>Business</item>
+        <item>其他学科</item>
+        <item>♀STEM♀</item>
+    </array>
+    <array name="subforum4_entertainment_indexes">
+        <item>29</item>
+        <item>224</item>
+        <item>142</item>
+        <item>100</item>
+        <item>94</item>
+        <item>189</item>
+    </array>
+    <array name="subforum4_entertainment_titles">
+        <item>海外生活</item>
+        <item>找室友</item>
+        <item>版聚/本地</item>
+        <item>旅游</item>
+        <item>游戏体育</item>
+        <item>Hobby</item>
+    </array>
+    <array name="subforum5_finance_indexes">
+        <item>127</item>
+        <item>80</item>
+        <item>196</item>
+        <item>124</item>
+        <item>225</item>
+    </array>
+    <array name="subforum5_finance_titles">
+        <item>财务</item>
+        <item>男女</item>
+        <item>机票</item>
+        <item>车</item>
+        <item>二手交易</item>
+    </array>
+</resources>

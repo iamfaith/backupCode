@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/AppTheme_NestedScrollBarStyle">
+    <LinearLayout app:orientation="vertical" app:id="@+id/thread_content_linearlayout" app:paddingLeft="@dimen/thread_content_margin_macro" app:paddingTop="@dimen/thread_content_margin_macro" app:paddingRight="@dimen/thread_content_margin_macro" app:paddingBottom="@dimen/thread_content_margin_mega" app:layout_width="match_parent" app:layout_height="match_parent">
+        <TextView app:textSize="@dimen/thread_content_puretext_textsize" app:textColor="@color/color_threadcontent_puretext" app:id="@+id/thread_content_puretext" app:layout_width="match_parent" app:layout_height="wrap_content" app:lineSpacingMultiplier="1.4" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

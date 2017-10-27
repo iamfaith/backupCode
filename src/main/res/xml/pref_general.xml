@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/pref_category" android:title="@string/pref_category_account">
+        <SwitchPreference android:icon="@drawable/ic_settings_adb" android:title="@string/pref_send_anonymous_data_title" android:key="@string/pref_send_anonymous_data_key" android:defaultValue="true" android:summaryOn="@string/pref_send_anonymous_data_on_description" android:summaryOff="@string/pref_send_anonymous_data_off_description" />
+        <Preference android:icon="@drawable/ic_settings_power" android:title="@string/pref_logout_title" android:key="@string/pref_logout_key" android:summary="@string/pref_logout_description" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/pref_category" android:title="@string/pref_category_about_application">
+        <Preference android:icon="@drawable/ic_settings_info" android:title="@string/pref_build_version_title" android:key="@string/pref_build_version_key" android:summary="@string/pref_build_version_description" />
+        <Preference android:icon="@drawable/ic_settings_update" android:title="@string/pref_check_update_title" android:key="@string/pref_check_update_key" android:summary="@string/pref_check_update_description" />
+        <Preference android:icon="@drawable/ic_settings_giftcard" android:title="@string/pref_donation_title" android:key="@string/pref_donation_key" android:summary="@string/pref_donation_description" />
+        <Preference android:icon="@drawable/ic_settings_feedback" android:title="@string/pref_feedback_title" android:key="@string/pref_feedback_key" android:summary="@string/pref_feedback_description" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/pref_category" android:title="@string/pref_category_about_developer">
+        <Preference android:icon="@drawable/ic_settings_face" android:title="@string/pref_developer_profile_title" android:key="@string/pref_developer_profile_key" android:summary="@string/pref_developer_profile_description" />
+        <Preference android:icon="@drawable/ic_settings_github" android:title="@string/pref_developer_github_title" android:key="@string/pref_developer_github_key" android:summary="@string/pref_developer_github_description" />
+        <Preference android:icon="@drawable/ic_settings_professor" android:title="@string/pref_developer_mogician_title" android:key="@string/pref_developer_mogician_key" android:summary="@string/pref_developer_mogician_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

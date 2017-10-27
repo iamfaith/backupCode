@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/main_coordinator_layout" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme_AppBarOverlay" app:layout_width="match_parent" app:layout_height="wrap_content" app:windowActionBarOverlay="true" app:windowTranslucentStatus="true">
+        <android.support.v7.widget.Toolbar app:id="@+id/main_toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f01003d" app:popupTheme="@style/AppTheme_PopupOverlay">
+            <Spinner app:id="@+id/main_toolbar_spinner" app:paddingLeft="@dimen/main_spinner_left_padding" app:layout_width="UNKNOWN_DATA_0x7f090034" app:layout_height="match_parent" app:spinnerMode="dropdown" app:popupTheme="@style/AppTheme_SpinnerPopupMenu" app:theme="@style/AppTheme_Spinner" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_main" />
+    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/main_fab" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/fab_margin" app:src="@drawable/ic_floatingbutton_plus" />
+</android.support.design.widget.CoordinatorLayout>

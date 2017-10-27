@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/blog_framelayout" android:background="@color/color_recyclerview_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/blog_root" android:background="@color/color_bloginfo_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bloginfo_margin_middle" android:layout_marginTop="@dimen/bloginfo_margin_middle" android:layout_marginRight="@dimen/bloginfo_margin_middle" android:layout_marginBottom="@dimen/bloginfo_margin_middle" android:transitionName="@string/transition_bloginfo_cardview" android:elevation="@dimen/thread_bloginfo_elevation" android:cardCornerRadius="4dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/blog_content" android:background="@drawable/bg_bloginfo" android:paddingLeft="@dimen/bloginfo_margin_large" android:paddingTop="@dimen/bloginfo_margin_large" android:paddingRight="@dimen/bloginfo_margin_macro" android:paddingBottom="@dimen/bloginfo_margin_macro" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingRight="@dimen/bloginfo_margin_middle" android:layout_width="UNKNOWN_DATA_0x7f090021" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/bloginfo_date_month_textsize" android:textStyle="italic" android:textColor="@color/color_bloginfo_date_month" android:id="@+id/blog_date_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nov" />
+                    <TextView android:textSize="@dimen/bloginfo_date_day_textsize" android:textStyle="bold|italic" android:textColor="@color/color_bloginfo_date_day" android:id="@+id/blog_date_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11" />
+                    <TextView android:textSize="@dimen/bloginfo_date_year_textsize" android:textStyle="italic" android:textColor="@color/color_bloginfo_date_year" android:id="@+id/blog_date_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/bloginfo_title_textsize" android:textStyle="bold" android:textColor="@color/color_bloginfo_title" android:id="@+id/blog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bloginfo_dummy_title" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/color_threadinfo_row2_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" android:layout_marginLeft="@dimen/bloginfo_left_column_width" android:layout_marginTop="@dimen/bloginfo_margin_medium" />
+            <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/blog_swipe_refresh_layout" android:paddingTop="@dimen/bloginfo_margin_middle" android:paddingBottom="@dimen/bloginfo_margin_mega" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bloginfo_left_column_width">
+                <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme_NestedScrollBarStyle">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/color_bloginfo_intro" android:id="@+id/blog_body" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/blog_dummy_body" android:lineSpacingMultiplier="1.4" />
+                    </LinearLayout>
+                </android.support.v4.widget.NestedScrollView>
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

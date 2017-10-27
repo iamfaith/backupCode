@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/main_background_progress_layout" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+        <ProgressBar app:id="@+id/main_background_progress_progressbar" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="8dp" style="?unknown_attr_ref: 101007a" />
+        <TextView app:textSize="@dimen/main_background_progress_textsize" app:id="@+id/main_background_progress_textview" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/main_background_progress_margin" />
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/main_swipe_refresh_layout" android:background="@color/color_recyclerview_bg" android:layout_width="match_parent" android:layout_height="match_parent" class="android.support.v4.widget.SwipeRefreshLayout">
+        <android.support.v7.widget.RecyclerView android:id="@+id/main_recyclerview" android:background="@color/color_recyclerview_bg" android:visibility="visible" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

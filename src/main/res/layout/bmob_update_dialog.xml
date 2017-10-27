@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#99232323" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bmob_update_dialog_bg" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+            <ImageView android:id="@id/bmob_update_wifi_indicator" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:src="@drawable/bmob_update_wifi_disable" android:layout_centerVertical="true" android:contentDescription="@string/BMGprsCondition" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#63c2ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BMUpdateTitle" android:layout_centerInParent="true" />
+            <Button android:id="@id/bmob_update_id_close" android:background="@drawable/bmob_update_button_close_bg_selector" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#2aacff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+        <ScrollView android:padding="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#aaabaf" android:id="@id/bmob_update_content" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="5dp" />
+            </LinearLayout>
+        </ScrollView>
+        <CheckBox android:textColor="#aaabaf" android:id="@id/bmob_update_id_check" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001" android:button="@drawable/bmob_update_button_check_selector" android:text="@string/BMIgnore" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bmob_update_id_ok" android:background="@drawable/bmob_update_button_ok_bg_selector" android:padding="12dp" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/BMUpdateNow" android:layout_weight="1.0" />
+            <Button android:textColor="#aaabaf" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bmob_update_id_cancel" android:background="@drawable/bmob_update_button_cancel_bg_selector" android:padding="12dp" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/BMNotNow" android:layout_weight="1.0" />
+            <Button android:textColor="#aaabaf" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bmob_update_id_ignore" android:background="@drawable/bmob_update_button_cancel_bg_selector" android:padding="12dp" android:focusable="true" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/BMIgnore" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

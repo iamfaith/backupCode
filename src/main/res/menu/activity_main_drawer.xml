@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_menu_rss_feed_back" android:id="@+id/nav_blog" android:title="@string/nav_menu_item_blog" />
+        <item android:icon="@drawable/ic_menu_school" android:id="@+id/nav_application" android:title="@string/nav_menu_item_application" />
+        <item android:icon="@drawable/ic_menu_local_library" android:id="@+id/nav_study" android:title="@string/nav_menu_item_study" />
+        <item android:icon="@drawable/ic_menu_work" android:id="@+id/nav_work" android:title="@string/nav_menu_item_work" />
+        <item android:icon="@drawable/ic_menu_public" android:id="@+id/nav_academic" android:title="@string/nav_menu_item_academic" />
+        <item android:icon="@drawable/ic_menu_local_florist" android:id="@+id/nav_entertainment" android:title="@string/nav_menu_item_entertainment" />
+        <item android:icon="@drawable/ic_menu_account_balance" android:id="@+id/nav_finance" android:title="@string/nav_menu_item_finance" />
+    </group>
+    <item android:title="@string/nav_menu_itemgroup_social">
+        <menu>
+            <item android:icon="@drawable/ic_menu_share" android:id="@+id/nav_share" android:title="@string/nav_menu_item_share" />
+            <item android:icon="@drawable/ic_menu_send" android:id="@+id/nav_message" android:title="@string/nav_menu_item_message" />
+        </menu> />
+</menu>

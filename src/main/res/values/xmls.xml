@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="pref_general">res/xml/pref_general.xml</xml>
+</resources>

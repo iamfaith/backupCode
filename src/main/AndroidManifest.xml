@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1030300" android:versionName="Beta 3.3.0" package="naco_siren.github.a1point3acres" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:label="@string/title_activity_login" android:name="naco_siren.github.a1point3acres.activities.login_activity.LoginActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_main" android:name="naco_siren.github.a1point3acres.activities.main_activity.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_thread" android:name="naco_siren.github.a1point3acres.activities.thread_activity.ThreadActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:parentActivityName="naco_siren.github.a1point3acres.activities.main_activity.MainActivity" />
+        <activity android:theme="@style/FullscreenTheme" android:label="@string/title_activity_blog" android:name="naco_siren.github.a1point3acres.activities.blog_activity.BlogActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="naco_siren.github.a1point3acres.activities.main_activity.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="naco_siren.github.a1point3acres.activities.main_activity.MainActivity" />
+        </activity>
+        <activity android:label="@string/title_activity_settings" android:name="naco_siren.github.a1point3acres.activities.settings_activity.SettingsActivity" />
+    </application>
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="activity_main_drawer">res/menu/activity_main_drawer.xml</menu>
+    <menu name="main">res/menu/main.xml</menu>
+    <menu name="menu_blog">res/menu/menu_blog.xml</menu>
+    <menu name="menu_thread">res/menu/menu_thread.xml</menu>
+</resources>

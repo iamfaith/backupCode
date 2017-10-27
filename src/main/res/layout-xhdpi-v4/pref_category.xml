@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/settings_margin_ultra" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/settings_category_textsize" android:textStyle="bold" android:textColor="@color/colorAccent" android:id="0x1020016" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_large" android:layout_marginBottom="@dimen/settings_margin_small" android:text="@string/pref_category_about_application" />
+</LinearLayout>
